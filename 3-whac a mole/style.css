@@ -1,0 +1,71 @@
+.grid{
+	width:40%;
+	height:70vh;
+	display:flex;
+	flex-wrap: wrap;
+	margin-left: 30%;
+	margin-top: 10%;
+	
+
+}
+
+.square{	
+	
+	border:1px solid black;
+}
+
+.mole{
+	
+	/*
+	background-image: url('mole.png');
+	background-repeat: no-repeat;
+  	background-size: 100%;
+  	*/
+}
+
+img{
+	width: 90%;
+	height: 80%;
+	margin-left: 5%;
+	margin-top: 5%;
+	object-fit: contain;
+
+
+}
+
+.inputs-bar{
+	position: absolute;
+	left : 0;
+	bottom: 0;
+	top: 0;
+	width: 200px;
+	padding-top: 60px;
+	background-color: white;
+
+}
+
+.inputs-bar input{
+
+	margin : 12px;
+
+}
+
+.condition-bar{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	top: 0;
+	width:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

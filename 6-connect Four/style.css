@@ -1,0 +1,59 @@
+main{
+	margin-left: 38%;
+	font-family: Arial;
+	font-size: 24px;
+}
+#token-symbol{
+	height:24px;
+	width: 24px;
+	border-radius: 12px;
+	background-color: red;
+	display:inline-block;
+	margin-left: 6px;
+	vertical-align: middle;
+
+}
+#current-player{
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+#result{
+	height: 20px;
+	text-align: center;
+	display: inline-block;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px solid;
+	height: 240px;
+	width: 280px;
+
+}
+.grid div{
+	height: 38px;
+	width: 38px;
+	border-radius: 19px;
+	border: 1px solid white;
+
+	
+}
+.virtual{
+	display: none;
+}
+
+.grid div:hover{
+	border-color: lightgray;
+}
+
+
+.player1{
+	background-color: red;
+	
+}
+.player2{
+	background-color: blue;
+	
+
+}

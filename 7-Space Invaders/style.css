@@ -1,0 +1,65 @@
+.info{
+	margin:30px;
+	padding:10px;
+	border: 1px dashed black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 290px;
+	height: 50px;
+}
+
+.info button{
+	height:30px;
+	padding: 4px;
+}
+
+.info div{
+	font-size: 16px;
+	font-family: Arial;
+	text-align: center;
+}
+.info span{
+	display: block
+}
+
+.grid{
+	width:300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 30px;
+	padding:4px;
+
+	
+}
+.space{
+	width: 20px;
+	height: 20px
+}
+
+.invader{
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.player{
+	background-color: green;
+	border-radius: 4px;
+}
+
+.bullet{
+	height: 16px;
+	width: 4px;
+	background-color: black;
+	margin-left: 8px;
+}
+
+.result{
+	font-family: Arial;
+	font-size: 28px;
+	margin-top: 30px;
+	width: 300px;
+	text-align: center;
+	margin-left: 30px;
+}
